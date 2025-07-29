@@ -16,9 +16,9 @@ const Hero = () => {
             <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
                 <div className="space-y-8">
                     {/* Badge */}
-                    <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 border border-cyan-400/30 rounded-full backdrop-blur-sm">
+                    {/* <div className="inline-flex items-center mt-5 px-6 py-3 bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 border border-cyan-400/30 rounded-full backdrop-blur-sm">
                         <span className="text-cyan-300 text-sm font-semibold tracking-wide">🏆 2024 World Champions</span>
-                    </div>
+                    </div> */}
 
                     {/* Main Heading */}
                     <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black leading-tight tracking-tight">
@@ -42,7 +42,7 @@ const Hero = () => {
                     </div>
 
                     {/* Stats */}
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 py-10 max-w-4xl mx-auto">
+                    {/* <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 py-10 max-w-4xl mx-auto">
                         <div className="text-center group">
                             <div className="text-4xl sm:text-5xl font-black bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">25+</div>
                             <div className="text-gray-400 text-sm uppercase tracking-widest font-semibold">Major Titles</div>
@@ -55,20 +55,20 @@ const Hero = () => {
                             <div className="text-4xl sm:text-5xl font-black bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">$5M+</div>
                             <div className="text-gray-400 text-sm uppercase tracking-widest font-semibold">Prize Pool</div>
                         </div>
-                    </div>
+                    </div> */}
                 
                 </div>
             </div>
 
             {/* Scroll indicator */}
-            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            {/* <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 animate-bounce">
                 <div className="flex flex-col items-center gap-2">
                     <span className="text-cyan-400 text-xs uppercase tracking-widest font-semibold">Scroll Down</span>
                     <div className="w-6 h-10 border-2 border-cyan-400/60 rounded-full flex justify-center relative overflow-hidden">
                         <div className="w-1 h-3 bg-gradient-to-b from-cyan-400 to-emerald-400 rounded-full mt-2 animate-bounce"></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

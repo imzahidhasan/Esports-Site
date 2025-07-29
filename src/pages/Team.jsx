@@ -1,7 +1,7 @@
 const Team = () => {
     const teams = [
         {
-            game: "Valorant",
+            game: "Free Fire Team",
             players: [
                 { name: "Alex \"Phantom\" Chen", role: "IGL/Duelist", avatar: "AC", country: "🇺🇸" },
                 { name: "Sarah \"Echo\" Williams", role: "Controller", avatar: "SW", country: "🇨🇦" },

@@ -127,13 +127,13 @@ const TeamHighlights = () => {
                         </div>
 
                         {/* Call to Action */}
-                        <div className="mt-8 p-6 bg-gradient-to-r from-purple-500/20 to-blue-500/20 border border-purple-500/30 rounded-xl">
+                        {/* <div className="mt-8 p-6 bg-gradient-to-r from-purple-500/20 to-blue-500/20 border border-purple-500/30 rounded-xl">
                             <h4 className="text-white font-semibold text-lg mb-2">Join Our Journey</h4>
                             <p className="text-gray-300 mb-4">Follow our team as we compete in the biggest tournaments worldwide</p>
                             <button className="px-6 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-blue-600 transition-all duration-300">
                                 View Full Team
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

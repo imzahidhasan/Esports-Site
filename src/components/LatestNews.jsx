@@ -93,7 +93,7 @@ const LatestNews = () => {
                 {/* Other Articles */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {news.slice(1).map((article) => (
-                        <article key={article.id} className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 hover:transform hover:scale-105 group">
+                        <article key={article.id} className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 hover:transform  group">
                             <div className="p-6">
                                 <div className="flex items-center justify-center h-32 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-lg mb-4">
                                     <span className="text-5xl">{article.image}</span>
